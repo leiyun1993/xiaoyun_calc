@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/my/my"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "小云口算",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/tabs/home-def.png",
+                "selectedIconPath": "/images/tabs/home-select.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "/images/tabs/mine-def.png",
+                "selectedIconPath": "/images/tabs/mine-select.png"
+            }
+        ],
+        "color": "#808080",
+        "selectedColor": "#1780FE",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black"
+    },
+    "usingComponents": {
+        "van-slider": "@vant/weapp/slider/index",
+        "van-icon": "@vant/weapp/icon/index",
+        "van-steps": "@vant/weapp/steps/index"
+    }
+}
