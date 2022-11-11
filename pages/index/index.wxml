@@ -32,7 +32,7 @@
                     <view class="item-content">
                         <van-steps steps="{{ steps }}" active="{{ active }}" active-color="#ff4040" ></van-steps>
                         <view class="flex flex-center">
-                            <van-button block type="default" class="flex1" round>打印</van-button>
+                            <van-button block type="default" class="flex1" round bindtap="printTap">打印</van-button>
                             <van-button block color="linear-gradient(to right, #4bb0ff, #3c7ef6)" class="flex2 ml20" round>
                                 开始练习
                             </van-button>

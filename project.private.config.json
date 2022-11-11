@@ -3,5 +3,18 @@
     "projectname": "xiaoyun_calc",
     "setting": {
         "compileHotReLoad": false
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "",
+                    "pathName": "pages/print/view",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
     }
 }

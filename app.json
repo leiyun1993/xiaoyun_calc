@@ -1,8 +1,8 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/logs/logs",
-        "pages/my/my"
+        "pages/my/my",
+        "pages/print/view"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -35,5 +35,6 @@
         "van-slider": "@vant/weapp/slider/index",
         "van-icon": "@vant/weapp/icon/index",
         "van-steps": "@vant/weapp/steps/index"
-    }
+    },
+    "lazyCodeLoading": "requiredComponents"
 }

@@ -95,4 +95,12 @@ Page({
             activeNames: event.detail,
         });
     },
+    /**
+     * 打印
+     */
+    printTap(event){
+        wx.navigateTo({
+          url: `/pages/print/view`,
+        })
+    }
 })
